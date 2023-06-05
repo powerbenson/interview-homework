@@ -10,4 +10,4 @@ RUN go mod download
 
 RUN go build ./app-client-sharedmemory/clientSharedMem.go
 
-CMD ["/app/serverSender"]
+CMD ["/app/clientSharedMem"]
