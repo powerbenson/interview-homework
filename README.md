@@ -29,3 +29,4 @@ docker build -t client2 -f {YOURE_DIR}/app-client-sharedmemory/Dockerfile .
 5. sharedmemory 跟 pipe 的機制或許可以不要用這麼多檔案(還沒研究..)
 6. pipe 可能不用開關檔案這麼多次(還沒研究)
 7. semaphore 的機制跟 syscall 的參數還要再研究..
+8. docker 環境沒測過，最好使用本機...
