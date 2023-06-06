@@ -17,7 +17,7 @@ docker build -t client2 -f {YOURE_DIR}/app-client-pipe/Dockerfile .
 
 #### server client3(sharedmemory) file build
 ```
-docker build -t client2 -f {YOURE_DIR}/app-client-sharedmemory/Dockerfile .
+docker build -t client3 -f {YOURE_DIR}/app-client-sharedmemory/Dockerfile .
 ```
 
 ### follow up
